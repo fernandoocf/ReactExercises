@@ -1,12 +1,12 @@
 const webpack = require('webpack');
 
 module.exports = {
-    entry: './ex/indexjs',
+    entry: './ex/index.jsx',
     output: {
         path: __dirname + '/public',
-        filename: './ bundle.js'
+        filename: './bundle.js'
     },
-    devServr: {
+    devServer: {
         port: 8080,
         contentBase: './public'
     },
